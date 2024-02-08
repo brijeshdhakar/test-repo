@@ -1,0 +1,15 @@
+inputSet:
+  name: input_set_1
+  identifier: input_set_1
+  orgIdentifier: default
+  projectIdentifier: Brijesh
+  pipeline:
+    identifier: remotechild
+    stages:
+      - stage:
+          identifier: cs2
+          type: Custom
+          variables:
+            - name: var1
+              type: String
+              value: val
