@@ -1,0 +1,19 @@
+inputSet:
+  name: IS_2
+  identifier: IS_2
+  orgIdentifier: default
+  projectIdentifier: Brijesh
+  pipeline:
+    identifier: remotechildnondefaultbranch
+    stages:
+      - stage:
+          identifier: cs
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
